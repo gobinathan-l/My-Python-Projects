@@ -1,5 +1,6 @@
 import json
 from difflib import get_close_matches
+import pyfiglet
 
 data = json.load(open("data.json"))
 
@@ -17,7 +18,9 @@ def getValues(w):
     else:
         return "No matches in our Database."
 
-
+header = pyfiglet.figlet_format("PyDictionary")
+print(header + "by gobinathan")
+print(" ")
 word = input("Enter your Word: ")
 
 output = getValues(word)
