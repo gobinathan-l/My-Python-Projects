@@ -14,8 +14,11 @@ if total_jokes > 1:
     print(f"I found {total_jokes} Jokes about {input_term}, Here's one.")
     results = response['results']
     print(choice(results)['joke'])
+    print(" ")
 elif total_jokes == 1:
     print("Here's your Joke,")
     print(response['results'][0]['joke'])
+    print(" ")
 else:
     print(f"No Jokes found for your Query '{input_term}'.")
+    print(" ")
