@@ -3,7 +3,8 @@ from random import choice
 import pyfiglet
 
 header=pyfiglet.figlet_format("Dumb Jokes,")
-print(header)
+print(header + "by gobinathan")
+print(" ")
 url         =   "https://icanhazdadjoke.com/search"
 input_term  =   input("What would you like to search for? : ")
 response    =   requests.get(url, headers={"Accept":"application/json"}, params={"term":input_term} ).json()
