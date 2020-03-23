@@ -1,0 +1,10 @@
+Hello There, My Name is gobinathan and this is my little Python App.
+
+# # INSTRUCTIONS # #
+
+1. The Python File must be run as Administrator to work as intended.
+2. Add This Python Script to Startup via Task Scheduler on windows to run automatically with no Interaction.
+3. To Stop this App, End pythonw.exe or python.exe process from Task Manager. If enabled on Task Scheduler, Disable in there too.
+4. Rename this Script to .pyw format if you want to launch it directly from File Explorer.
+5. It can be compiled to .exe file with PyInstaller.[Not Verified]
+6. For Mac and Linux PCs, Replace contents of hosts_path with "/etc/hosts"
