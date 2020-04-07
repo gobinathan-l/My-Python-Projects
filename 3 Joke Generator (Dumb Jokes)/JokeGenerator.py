@@ -1,3 +1,4 @@
+# Dumb Joke Generator made by gobinathan-l. This Script scrapes data from "icanhazdadjoke.com" which allows scraping.
 import requests
 from random import choice
 import pyfiglet

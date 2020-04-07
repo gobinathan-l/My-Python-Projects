@@ -1,3 +1,4 @@
+# A Bookstore management App made by gobinathan-l. Used tkinter module for GUI Rendering
 from tkinter import *
 from backend import *
 
