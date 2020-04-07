@@ -1,0 +1,6 @@
+The Public IP Address is : 157.50.222.192
+Processor : Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+OS : Windows 10.0.18362
+Machine : AMD64
+Hostname : DEATH-STAR
+Private IP : 192.168.56.1

