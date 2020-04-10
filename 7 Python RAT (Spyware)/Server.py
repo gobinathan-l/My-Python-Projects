@@ -4,11 +4,12 @@
 # - download_files  [Download Files]
 # - delete_files    [Delete Files and Folders]
 # - send_files      [Upload Files]
-
+# - quit            [It's Obvious! Quits the Script]
 
 
 import os
 import socket
+import sys
 
 # Connection Initialisation [Phase 1]
 s = socket.socket()
@@ -83,8 +84,10 @@ while 1:
         print("")
         print("[+] File(s) has been Sent.")
 
-
-
+    elif command == "quit":
+        conn.close()
+        s.close()cd
+        sys.exit()
 
     else:
         print("")
